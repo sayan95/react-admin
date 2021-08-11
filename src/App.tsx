@@ -1,7 +1,7 @@
 import React from 'react'
-import Dashboard from '../Dashboard/Dashboard';
-import Menu from '../Menu/Menu';
-import Navbar from '../Navbar/Navbar';
+import Dashboard from './secured/Dashboard';
+import Menu from './secured/components/Menu';
+import Navbar from './secured/components/Navbar';
 import "./App.css";
 
 const App = () => {
