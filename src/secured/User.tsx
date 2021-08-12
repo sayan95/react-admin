@@ -1,12 +1,13 @@
 // dependency imports
 import React from 'react';
+import Wrapper from './Wrapper';
 
 // User components
 const User = () => {
     return (
-        <div>
+        <Wrapper>
             <p>Users works !</p>
-        </div>
+        </Wrapper>
     )
 }
 

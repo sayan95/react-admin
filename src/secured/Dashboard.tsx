@@ -1,10 +1,11 @@
 // dependency imports
-import React, { Fragment } from 'react';
+import React from 'react';
+import Wrapper from './Wrapper';
 
 // Admin dashboard component
 const Dashboard = () => {
     return (
-        <Fragment>
+        <Wrapper>
             <h2>Section title</h2>
             <div className="table-responsive">
               <table className="table table-striped table-sm">
@@ -28,7 +29,7 @@ const Dashboard = () => {
                 </tbody>
               </table>
             </div>
-        </Fragment>
+        </Wrapper>
     )
 }
 
