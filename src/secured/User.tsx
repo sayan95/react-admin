@@ -1,5 +1,7 @@
-import React from 'react'
+// dependency imports
+import React from 'react';
 
+// User components
 const User = () => {
     return (
         <div>
@@ -8,4 +10,4 @@ const User = () => {
     )
 }
 
-export default User
+export default User;

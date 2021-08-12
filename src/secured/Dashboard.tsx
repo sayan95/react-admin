@@ -1,5 +1,7 @@
-import React, { Fragment } from 'react'
+// dependency imports
+import React, { Fragment } from 'react';
 
+// Admin dashboard component
 const Dashboard = () => {
     return (
         <Fragment>
@@ -30,4 +32,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default Dashboard;
