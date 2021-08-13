@@ -4,10 +4,10 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import "./App.css";
 
 // app component imports
-import Dashboard from './secured/Dashboard';
-import User from './secured/User';
-import Login from './public/Login';
-import Register from './public/Register';
+import Dashboard from './pages/secured/Dashboard';
+import User from './pages/secured/User';
+import Login from './pages/public/auth/Login';
+import Register from './pages/public/auth/Register';
 
 
 // App component defination

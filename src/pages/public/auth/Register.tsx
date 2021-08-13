@@ -1,8 +1,7 @@
 // derpendency imports
-import React, { Fragment, useState } from 'react';
-import { ChangeEvent } from 'react';
+import React, { Fragment, useState, SyntheticEvent, ChangeEvent} from 'react';
 import { Redirect } from 'react-router-dom';
-import axios from '../axios.config';
+import axios from '../../../axios.config';
 
 interface Form {
     firstName: string,
@@ -34,7 +33,7 @@ const Register = () => {
         })
     }
 
-    const submitRegisterFormHandler = async (e:any) => {
+    const submitRegisterFormHandler = async (e:SyntheticEvent) => {
         e.preventDefault();
         setLoading(true);
         try{
